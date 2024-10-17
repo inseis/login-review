@@ -1,0 +1,46 @@
+.page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 16px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.titleWrap {
+    font-size: 28px;  /* 제목 글자 크기 증가 */
+    font-weight: 700;  /* 굵게 설정 */
+    margin-bottom: 24px; /* 아래 여백 추가 */
+    text-align: center;  /* 중앙 정렬 */
+}
+
+.inputWrap {
+    display: flex;
+    border-radius: 8px;
+    padding: 18px; /* 입력 필드 크기 증가 */
+    margin-top: 16px; /* 필드 사이 여백 증가 */
+    background-color: white;
+    border: 1px solid #e2e0c0;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px; /* 입력 글자 크기 증가 */
+    font-weight: 400;
+}
+ 
+.errorMessageWrap {
+    margin-top: 8px;
+    font-size: 12px; /* 메시지 글자 크기 증가 */
+    font-weight: 600; /* 굵게 설정 */
+    color: #ef0000;
+}
